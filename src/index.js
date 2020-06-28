@@ -52,7 +52,7 @@ export default ({
             filenameMap[filename].importedHelperIndentifier
           )
         ],
-        t.stringLiteral('babel-plugin-react-css-modules/dist/browser/getClassName')
+        t.stringLiteral('@kitten-team/babel-plugin-react-css-modules/dist/browser/getClassName')
       )
     );
 

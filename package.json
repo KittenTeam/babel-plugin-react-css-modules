@@ -46,7 +46,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test && npm run lint"
+      "pre-commit": ""
     }
   },
   "jest": {
@@ -62,7 +62,7 @@
   ],
   "license": "BSD-3-Clause",
   "main": "dist/index.js",
-  "name": "babel-plugin-react-css-modules",
+  "name": "@kitten-team/babel-plugin-react-css-modules",
   "repository": {
     "type": "git",
     "url": "https://github.com/gajus/babel-plugin-react-css-modules"

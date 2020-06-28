@@ -97,6 +97,7 @@ export default (styleNameValue: string, styleModuleImportMap: StyleModuleImportM
   }
 
   return styleNameValue
+    .replace(/\n/g, ' ')
     .split(' ')
     .filter((styleName) => {
       return styleName;

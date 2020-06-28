@@ -264,7 +264,7 @@ To add support for different CSS syntaxes (e.g. SCSS), perform the following two
 
   > NOTE: [`postcss-nested`](https://github.com/postcss/postcss-nested) is added as an extra plugin for demonstration purposes only. It's not needed with [`postcss-scss`](https://github.com/postcss/postcss-scss) because SCSS already supports nesting.
 
-  Postcss plugins can have options specified by wrapping the name and an options object in an array inside your config: 
+  Postcss plugins can have options specified by wrapping the name and an options object in an array inside your config:
 
   ```json
     "plugins": [
@@ -426,7 +426,7 @@ import './bar.css';
 Output:
 
 ```js
-import _getClassName from 'babel-plugin-react-css-modules/dist/browser/getClassName';
+import _getClassName from '@kitten-team/babel-plugin-react-css-modules/dist/browser/getClassName';
 import foo from './bar.css';
 
 const _styleModuleImportMap = {
