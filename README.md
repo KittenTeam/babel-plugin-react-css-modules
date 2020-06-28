@@ -1,4 +1,10 @@
-# babel-plugin-react-css-modules
+# @kitten-team/babel-plugin-react-css-modules
+
+## Change Log (since original repo)
+* 1.0.0 - fix: styleName should be splitted by both space and newline 
+
+------
+(Original README.md)
 
 [![GitSpo Mentions](https://gitspo.com/badges/mentions/gajus/babel-plugin-react-css-modules?style=flat-square)](https://gitspo.com/mentions/gajus/babel-plugin-react-css-modules)
 [![Travis build status](http://img.shields.io/travis/gajus/babel-plugin-react-css-modules/master.svg?style=flat-square)](https://travis-ci.org/gajus/babel-plugin-react-css-modules)
